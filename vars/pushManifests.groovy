@@ -9,7 +9,7 @@ def call() {
 
     sh 'git commit -m "Update Kubernetes deployment manifest with new image tag"'
 
-    sh 'git push origin master'
+    sh 'git push origin main'
 
     echo "Manifests have been successfully pushed to GitHub."
 }
